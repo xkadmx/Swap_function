@@ -31,24 +31,24 @@ GestureDetector.OnDoubleTapListener{
     @Override
     public boolean onSingleTapConfirmed(MotionEvent e) {
         zuzasMessage.setText("onSingleTapConfirmed");
-        return false;
+        return true;
     }
 
     @Override
     public boolean onDoubleTap(MotionEvent e) {
         zuzasMessage.setText("onDoubleTap");
-        return false;
+        return true;
     }
 
     @Override
     public boolean onDoubleTapEvent(MotionEvent e) {
-        return false;
+        return true;
     }
 
     @Override
     public boolean onDown(MotionEvent e) {
         zuzasMessage.setText("onDown");
-        return false;
+        return true;
     }
 
     @Override
@@ -60,13 +60,13 @@ GestureDetector.OnDoubleTapListener{
     @Override
     public boolean onSingleTapUp(MotionEvent e) {
         zuzasMessage.setText("onSingleTapUp");
-        return false;
+        return true;
     }
 
     @Override
     public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
         zuzasMessage.setText("onScroll");
-        return false;
+        return true;
     }
 
     @Override
@@ -78,6 +78,6 @@ GestureDetector.OnDoubleTapListener{
     @Override
     public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
         zuzasMessage.setText("onFling");
-        return false;
+        return true;
     }
 }
